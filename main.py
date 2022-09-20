@@ -2,7 +2,7 @@ from PIL import Image, ImageFont, ImageDraw
 import uuid
 
 
-
+#commenting for testing 
 # Global Variables
 FONT_FILE = ImageFont.truetype(r'font/GreatVibes-Regular.ttf', 180)
 FONT_COLOR = "#FFFFFF"
@@ -35,7 +35,7 @@ def make_certificates(name):
 if __name__ == "__main__":
 
     names = ['Tushar Nankani', "Full Name", 'Some Long Ass Name Might Not Work']
-    for name in names:
-        make_certificates(name)
+    # for name in names:
+    make_certificates("joginder")
     print(len(names), "certificates done.")
 
